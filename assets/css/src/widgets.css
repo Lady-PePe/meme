@@ -1,0 +1,270 @@
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+
+.widget{
+	margin-bottom: 1.875em;
+	display: inline-block;
+	width: 100%;
+	float: left;
+	position: relative;
+	padding :1.875em;
+	background: var(--global-section-bg);
+	border-radius: var(--border-radius-box);
+}
+
+.widget:last-child,
+.widget-woof:last-child {
+	margin-bottom: 0;
+}
+.widget.widget_rss.text-left span {
+    align-items: center;
+    display: flex;
+}
+.widget.widget_rss.text-left span .rsswidget{
+	line-height: 0;
+    display: inline-block;
+    margin-right: 0.313em;
+	color: var(--global-font-title);
+}
+.widget.widget_rss.text-left span:before{
+	top: -0.2em;
+}
+.widget ul,
+.widget-woof ul {
+	padding: 0;
+	margin: 0; 
+}
+
+.widget ul li,
+.widget-woof ul li {
+	padding-bottom: 0.938em;
+	list-style: none;
+	margin-bottom: 0.938em;
+	border-bottom: 0.063rem solid var(--border-color-light-opacity);
+}
+
+.widget ul li a {
+	color: var(--global-font-color);
+	position: relative;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+ 
+.widget ul li a,
+ul.wp-block-archives-list li a,
+.widget-woof ul li a {
+	position: relative;
+	display: inline-block;
+	color: var(--global-font-color);
+}
+
+.widget_categories a:hover,
+.widget_categories ul li a:hover,
+.widget_pages ul li a:hover,
+.widget.widget_archive ul li a:hover,
+ul.wp-block-archives-list li a:hover,
+ul.wp-block-categories-list li a:hover{
+	color: var(--color-theme-primary);
+}
+.posted-on svg,
+.posted-by svg {
+color: var(--color-theme-primary);
+}
+
+.ealain-blog-meta ul li.widget_categories a,
+.ealain-blog-meta .widget_categories ul li a {
+	padding: 0;
+	font-size: var(--font-size-normal);
+	line-height: var(--font-line-height-body);
+	letter-spacing: var(--letter-spacing-one);
+	text-transform: uppercase;
+	color: var(--color-theme-secondary);
+} 
+
+.ealain-blog-meta ul li.widget_categories a:hover,
+.ealain-blog-meta .widget_categories ul li a:hover {
+	color: var(--color-theme-primary);
+}
+
+.widget_pages li.page_item a{
+	text-transform: capitalize;
+	font-size: var(--font-size-body);	
+}
+
+.widget ul li a:hover,
+.widget-woof ul li a:hover {
+	color: var(--color-theme-primary);
+} 
+
+.widget_categories ul li,
+.widget_archive ul li,
+.widget_pages ul li,
+ul.wc-block-product-categories-list li {
+	color: var(--global-font-color);
+	text-transform: capitalize;
+	margin-bottom: 0.938em;
+	border-bottom: 0.063rem solid var(--border-color-light-opacity);
+}
+
+.widget_tag_cloud ul li,
+footer ul.wp-tag-cloud li {
+	padding: 0;
+	margin: 0 0.625em 0.625em 0;
+	display: inline-block;
+	border: none;
+}
+
+.widget ul li:last-child,
+.widget-woof ul li:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border: none;
+}
+
+.widget ul ul.children {
+	padding-left: 1.563em;
+}
+
+.widget ul.menu li {
+	border: none;
+}
+
+.widget_categories ul ul.children,
+.widget_pages ul ul.children {
+	padding-top: 0.938em;
+}
+
+.widget.widget_nav_menu ul li a,
+.widget ul.menu li a {
+	padding: 0.625em 0 0.625em 0;
+	display: inline-block;
+	width: 100%;
+	border-bottom: 0.063rem solid var(--border-color-light-opacity);
+}
+.widget_nav_menu .menu .menu-item .toggledrop {
+	display: none;
+}
+
+.widget.widget_nav_menu ul li,
+.widget ul.menu li {
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.wp-block-search .wp-block-search__label,
+.wc-block-product-search .wc-block-product-search__label{
+	position: relative;
+	margin-bottom: 1.25em;	
+	margin-top: 0;
+	font-size: 1.5em;
+	color: var(--global-font-title);
+    line-height: var(--font-line-height-h5);
+    letter-spacing: var(--font-letter-spacing-h5);
+    font-weight: var(--font-weight-h5);
+	font-family: var(--highlight-font-family);
+}
+
+.widget .footer-title, 
+.widget .widget-title, 
+.widget-woof .widget-title,
+.widget_block h1, 
+.widget_block h2, 
+.widget_block h3, 
+.widget_block h4, 
+.widget_block h5,
+.widget-woof h1,
+.widget-woof h2,
+.widget-woof h3,
+.widget-woof h4,
+.widget-woof h5{
+	position: relative;
+	margin-bottom: 1.35em;	
+	margin-top: 0;
+	font-size: 1.5em;
+	color: var(--global-font-title);
+    line-height: var(--font-line-height-h5);
+    letter-spacing: var(--font-letter-spacing-h5);
+	text-transform: capitalize;
+    font-weight: var(--font-weight-h5);
+}
+.widget.recent-post-widget .widget-title{
+	margin-bottom: 1.7em;	
+}
+.widget.recent-post-widget .ealain-blog-box{
+	padding-bottom: 0;
+    margin-bottom: 0;
+	border-bottom: none;
+}
+.widget.recent-post-widget .ealain-blog-meta ul li.p-date a{
+	font-family: var(--highlight-font-family);
+	font-size: var(--font-size-h5);
+	font-weight: var(--font-weight-regular);
+	color: var(--color-theme-primary);
+}
+.widget.recent-post-widget .blog-content{
+	margin:0.8em 0;
+}
+.widget.widget_iq_socail_media{
+	padding:0;
+}
+.widget.widget_rss .widget-title span{
+	display: flex;
+    align-items: center;
+}
+.widget.widget_rss .widget-title span:before{
+	top: 0;
+}
+.widget.widget_rss .widget-title span a.rsswidget{
+	display: inline-block;
+    line-height: 0;
+	margin-right: 0.313em;
+	color: var(--global-font-title);
+}  
+.widget .widget-title span, .widget .footer-title span{
+	position: relative;
+	display: inline-block;
+}
+.widget .widget-title span .wave-pattern, .widget .footer-title span .wave-pattern{
+	margin-top:0.2em;
+}
+
+
+ol.wp-block-latest-comments{
+	padding-left: 0;
+}
+
+.wp-block-latest-comments__comment {
+    display: block;
+}
+
+.wp-block-latest-comments__comment-meta {
+    color: var(--color-theme-primary);
+}
+
+.wp-block-latest-comments__comment-meta a.wp-block-latest-comments__comment-author {
+    color: var(--global-font-title);
+}
+
+.wp-block-latest-comments__comment-meta a {
+    color: var(--global-font-color);
+	line-height: var(--global-font-line-height);
+}
+
+.has-dates .wp-block-latest-comments__comment:last-child, 
+.has-excerpts .wp-block-latest-comments__comment:last-child{
+	margin-bottom: 0;
+}
+.wp-block-latest-comments__comment-excerpt p {
+	margin: 0;
+}
+
+@media(max-width:479px){
+	.widget .widget-title .title-border {margin: 0 0 0 0.625em;}
+	.widget ul ul.children {
+		padding-left: 0.938em;
+	}
+	.widget{
+		padding: 1em;
+	}
+}

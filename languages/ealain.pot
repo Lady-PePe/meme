@@ -1,0 +1,2659 @@
+# Copyright (C) 2022 Ealain
+# This file is distributed under the same license as the Ealain package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ealain\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Iqonic Design\n"
+"Report-Msgid-Bugs-To: Ealain\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../ealain/comments.php:41
+msgid " Comments"
+msgstr ""
+
+#: ../ealain/comments.php:39
+msgid " Comment"
+msgstr ""
+
+#: ../ealain/comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: ../ealain/comments.php:58, ../ealain/inc/Actions/Component.php:98
+msgid "Post Comment"
+msgstr ""
+
+#: ../ealain/comments.php:59
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#: ../ealain/comments.php:61
+msgid "Comment*"
+msgstr ""
+
+#: ../ealain/comments.php:68
+msgid "Name*"
+msgstr ""
+
+#: ../ealain/comments.php:73
+msgid "Email*"
+msgstr ""
+
+#: ../ealain/comments.php:78
+msgid "Website"
+msgstr ""
+
+#: ../ealain/comments.php:84, ../ealain/woocommerce/single-product-reviews.php:130
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: ../ealain/footer.php:75, ../ealain/footer.php:65, ../ealain/template-parts/content/error-404.php:43, ../ealain/template-parts/content/error-404.php:36, ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:25
+msgid "404"
+msgstr ""
+
+#: ../ealain/footer.php:76
+msgid "back to top"
+msgstr ""
+
+#: ../ealain/searchform.php:16, ../ealain/template-parts/content/error.php:37
+msgid "Search Website"
+msgstr ""
+
+#: ../ealain/searchform.php:20, ../ealain/template-parts/content/error.php:38
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: ../ealain/sidebar.php:24, ../ealain/template-parts/content/entry_creative_post.php:118
+msgid "Asides"
+msgstr ""
+
+#: ../ealain/single-creative-post.php:3
+msgid "Creative Post Template"
+msgstr ""
+
+#. translators: 1: required WP version number, 2: required PHP version number, 3: available WP version number, 4: available PHP version number
+#: ../ealain/inc/back-compat.php:25
+msgid "Ealain requires at least WordPress version %1$s and PHP version %2$s. You are running versions %3$s and %3$s respectively. Please update and try again."
+msgstr ""
+
+#. translators: 1: required WP version number, 2: available WP version number
+#: ../ealain/inc/back-compat.php:30
+msgid "Ealain requires at least WordPress version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#. translators: 1: required PHP version number, 2: available PHP version number
+#: ../ealain/inc/back-compat.php:35
+msgid "Ealain requires at least PHP version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:346
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:347
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../ealain/inc/class-tgm-plugin-activation.php:349
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../ealain/inc/class-tgm-plugin-activation.php:351
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:352
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:353
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:359
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:365
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:371
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:377
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:383
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:389
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:394
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:399
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:404
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:405, ../ealain/inc/class-tgm-plugin-activation.php:924, ../ealain/inc/class-tgm-plugin-activation.php:2630, ../ealain/inc/class-tgm-plugin-activation.php:3677
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:406, ../ealain/inc/class-tgm-plugin-activation.php:3256
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:407, ../ealain/inc/class-tgm-plugin-activation.php:3049
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: ../ealain/inc/class-tgm-plugin-activation.php:409
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../ealain/inc/class-tgm-plugin-activation.php:411
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: ../ealain/inc/class-tgm-plugin-activation.php:413
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:414
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:415
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:416
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:619
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:620
+msgid "Update Required"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:1034
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:1034, ../ealain/inc/class-tgm-plugin-activation.php:1031
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:1031
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:1218, ../ealain/inc/class-tgm-plugin-activation.php:3045
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: ../ealain/inc/class-tgm-plugin-activation.php:2079
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2370
+msgid "Required"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2373
+msgid "Recommended"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2389
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2392
+msgid "External Source"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2395
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2412
+msgid "Not Installed"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2418
+msgid "Active"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2416
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2430
+msgid "Update recommended"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2427
+msgid "Requires Update"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2424
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: ../ealain/inc/class-tgm-plugin-activation.php:2439
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: ../ealain/inc/class-tgm-plugin-activation.php:2485
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../ealain/inc/class-tgm-plugin-activation.php:2489
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../ealain/inc/class-tgm-plugin-activation.php:2493
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../ealain/inc/class-tgm-plugin-activation.php:2497
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2579
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2587
+msgid "Installed version:"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2595
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2607
+msgid "Available version:"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2630
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2644
+msgid "Plugin"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2645
+msgid "Source"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2646
+msgid "Type"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2650
+msgid "Version"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2651
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../ealain/inc/class-tgm-plugin-activation.php:2705
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../ealain/inc/class-tgm-plugin-activation.php:2711
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2700
+msgid "Install %2$s"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2781
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2814
+msgid "Install"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2820, ../ealain/woocommerce/cart/shipping-calculator.php:102
+msgid "Update"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2823
+msgid "Activate"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2856
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2854
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2899
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:2897
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:3005
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:3031
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:3255
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: ../ealain/inc/class-tgm-plugin-activation.php:3598
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../ealain/inc/class-tgm-plugin-activation.php:3600
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:3612
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../ealain/inc/class-tgm-plugin-activation.php:3614
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:3614, ../ealain/inc/class-tgm-plugin-activation.php:3606
+msgid "Show Details"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:3614, ../ealain/inc/class-tgm-plugin-activation.php:3606
+msgid "Hide Details"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:3615
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../ealain/inc/class-tgm-plugin-activation.php:3617
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:3604
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:3606
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:3607
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:3609
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../ealain/inc/class-tgm-plugin-activation.php:3595
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: ../ealain/inc/Template_Tags.php:54
+msgid "The theme templating component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: template tag name
+#: ../ealain/inc/Template_Tags.php:81
+msgid "The template tag %s does not exist."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: ../ealain/inc/Template_Tags.php:110
+msgid "The template tag method %1$s registered by theme component %2$s must either be a callable or an array."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: ../ealain/inc/Template_Tags.php:121
+msgid "The template tag method %1$s registered by theme component %2$s conflicts with an already registered template tag of the same name."
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: ../ealain/inc/Theme.php:60
+msgid "The theme component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: slug
+#: ../ealain/inc/Theme.php:126
+msgid "No theme component with the slug %s exists."
+msgstr ""
+
+#: ../ealain/woocommerce/share.php:51
+msgid "Facebook"
+msgstr ""
+
+#: ../ealain/woocommerce/share.php:59
+msgid "Twitter"
+msgstr ""
+
+#: ../ealain/woocommerce/share.php:67
+msgid "Pinterest"
+msgstr ""
+
+#: ../ealain/woocommerce/share.php:75, ../ealain/woocommerce/single-product-reviews.php:107
+msgid "Email"
+msgstr ""
+
+#: ../ealain/woocommerce/share.php:83
+msgid "WhatsApp"
+msgstr ""
+
+#: ../ealain/woocommerce/share.php:93
+msgid "(Now"
+msgstr ""
+
+#: ../ealain/woocommerce/share.php:93
+msgid "copy"
+msgstr ""
+
+#: ../ealain/woocommerce/share.php:93
+msgid "this wishlist link and share it anywhere)"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:40
+msgid "Reviews"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:37
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:67
+msgid "There are no reviews yet."
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:156
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:79
+msgid "Add a review"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:79
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:81
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:85, ../ealain/woocommerce/single-product-reviews.php:87
+msgid "Submit"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:89, ../ealain/woocommerce/wishlist-view-mobile.php:211, ../ealain/woocommerce/wishlist-view.php:259, ../ealain/inc/Actions/Component.php:64, ../ealain/inc/Actions/Component.php:86, ../ealain/inc/Actions/Component.php:100, ../ealain/inc/Actions/Component.php:123, ../ealain/inc/Breadcrumb/Component.php:188, ../ealain/template-parts/wocommerce/entry-listing.php:178, ../ealain/template-parts/wocommerce/entry-listing.php:165, ../ealain/template-parts/wocommerce/entry-listing.php:153, ../ealain/template-parts/wocommerce/entry-listing.php:141, ../ealain/template-parts/wocommerce/entry-listing.php:129, ../ealain/template-parts/wocommerce/entry.php:164, ../ealain/template-parts/wocommerce/entry.php:150, ../ealain/woocommerce/cart/cart-empty.php:38, ../ealain/woocommerce/cart/cart.php:160, ../ealain/woocommerce/cart/cart.php:177, ../ealain/woocommerce/cart/proceed-to-checkout-button.php:33, ../ealain/woocommerce/cart/shipping-calculator.php:104, ../ealain/woocommerce/checkout/form-coupon.php:40, ../ealain/woocommerce/checkout/payment.php:58, ../ealain/woocommerce/global/form-login.php:76, ../ealain/woocommerce/loop/add-to-cart.php:34, ../ealain/woocommerce/myaccount/downloads.php:48, ../ealain/woocommerce/myaccount/form-add-payment-method.php:63, ../ealain/woocommerce/myaccount/form-edit-account.php:93, ../ealain/woocommerce/myaccount/form-edit-address.php:55, ../ealain/woocommerce/myaccount/form-login.php:72, ../ealain/woocommerce/myaccount/form-login.php:142, ../ealain/woocommerce/myaccount/form-lost-password.php:46, ../ealain/woocommerce/myaccount/orders.php:129, ../ealain/woocommerce/myaccount/payment-methods.php:83, ../ealain/woocommerce/order/form-tracking.php:47, ../ealain/woocommerce/single-product/add-to-cart/external.php:44, ../ealain/woocommerce/single-product/add-to-cart/grouped.php:127, ../ealain/woocommerce/single-product/add-to-cart/simple.php:72
+msgid "image"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:101, ../ealain/woocommerce/myaccount/my-address.php:95, ../ealain/woocommerce/order/order-details-customer.php:51
+msgid "Name"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:135
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:139
+msgid "Your rating"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:140
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:141
+msgid "Perfect"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:142
+msgid "Good"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:143
+msgid "Average"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:144
+msgid "Not that bad"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:145
+msgid "Very poor"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product-reviews.php:149
+msgid "Your review"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-header.php:43
+msgid "wishlist-title-with-form"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-header.php:48
+msgid "Edit title"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-mobile.php:53
+msgid "with-checkbox"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-mobile.php:53, ../ealain/woocommerce/wishlist-view.php:55
+msgid "no-interactions"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-mobile.php:267, ../ealain/woocommerce/wishlist-view.php:326
+msgid "No products added to the wishlist"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-mobile.php:88
+msgid "Product Name:"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-mobile.php:136
+msgid "Added on:"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-mobile.php:147
+msgid "Price:"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-mobile.php:174
+msgid "Quantity:"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-mobile.php:189
+msgid "Stock:"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-mobile.php:192, ../ealain/woocommerce/wishlist-view.php:231
+msgid "Out of stock"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-mobile.php:192, ../ealain/woocommerce/wishlist-view.php:231
+msgid "In Stock"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-mobile.php:209, ../ealain/woocommerce/wishlist-view.php:257, ../ealain/woocommerce/loop/add-to-cart.php:32
+msgid "View Product"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-mobile.php:246, ../ealain/woocommerce/wishlist-view.php:295
+msgid "Move to another list &rsaquo;"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-mobile.php:225, ../ealain/woocommerce/wishlist-view.php:274
+msgid "Move"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view-mobile.php:254, ../ealain/woocommerce/wishlist-view.php:162, ../ealain/woocommerce/wishlist-view.php:305
+msgid "Remove this product"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view.php:55
+msgid "sortable"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view.php:81
+msgid "Product name"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view.php:89
+msgid "Unit price"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view.php:98, ../ealain/woocommerce/cart/cart.php:35, ../ealain/woocommerce/cart/cart.php:95, ../ealain/woocommerce/global/quantity-input.php:28
+msgid "Quantity"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view.php:107
+msgid "Stock status"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view.php:125
+msgid "Arrange"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view.php:245
+msgid "Added on: %s"
+msgstr ""
+
+#: ../ealain/woocommerce/wishlist-view.php:305
+msgid "Remove"
+msgstr ""
+
+#: ../ealain/inc/Accessibility/Component.php:66
+msgid "Expand child menu"
+msgstr ""
+
+#: ../ealain/inc/Accessibility/Component.php:67
+msgid "Collapse child menu"
+msgstr ""
+
+#: ../ealain/inc/Breadcrumb/Component.php:175
+msgid "Our Blogs"
+msgstr ""
+
+#: ../ealain/inc/Breadcrumb/Component.php:168
+msgid "Oops! That page can not be found."
+msgstr ""
+
+#: ../ealain/inc/Breadcrumb/Component.php:166
+msgid "Search"
+msgstr ""
+
+#: ../ealain/inc/Breadcrumb/Component.php:235
+msgid "banner"
+msgstr ""
+
+#: ../ealain/inc/Breadcrumb/Component.php:255, ../ealain/template-parts/breadcrumb/breadcrumb.php:33
+msgid "Home"
+msgstr ""
+
+#: ../ealain/inc/Breadcrumb/Component.php:340
+msgid "Error 404"
+msgstr ""
+
+#: ../ealain/inc/Breadcrumb/Component.php:338
+msgid "Articles posted by : "
+msgstr ""
+
+#: ../ealain/inc/Breadcrumb/Component.php:334
+msgid "Posts tagged"
+msgstr ""
+
+#: ../ealain/inc/Breadcrumb/Component.php:273
+msgid "Search results for : "
+msgstr ""
+
+#: ../ealain/inc/Breadcrumb/Component.php:271
+msgid "Archive by category : "
+msgstr ""
+
+#: ../ealain/inc/Breadcrumb/Component.php:267
+msgid "Blogs"
+msgstr ""
+
+#: ../ealain/inc/Breadcrumb/Component.php:344
+msgid "Page"
+msgstr ""
+
+#: ../ealain/inc/Comments/Component.php:151
+msgid "New comment(s)"
+msgstr ""
+
+#: ../ealain/inc/Comments/Component.php:206
+msgid "(Edit)"
+msgstr ""
+
+#: ../ealain/inc/Comments/Component.php:229, ../ealain/woocommerce/myaccount/my-address.php:57
+msgid "Edit"
+msgstr ""
+
+#: ../ealain/inc/Comments/Component.php:237
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../ealain/inc/Comments/Component.php:244
+msgid "Reply"
+msgstr ""
+
+#: ../ealain/inc/Common/Component.php:281
+msgid "%s"
+msgstr ""
+
+#: ../ealain/inc/Common/Component.php:300, ../ealain/inc/Redux_Framework/Options/Footer.php:43, ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:37, ../ealain/inc/Redux_Framework/Options/Header.php:44, ../ealain/inc/Redux_Framework/Options/Header.php:222, ../ealain/inc/Redux_Framework/Options/Header.php:253, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:266, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:370
+msgid "Custom"
+msgstr ""
+
+#: ../ealain/inc/Customizer/Component.php:78
+msgid "Theme Options"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:65, ../ealain/inc/Nav_Menus/Component.php:66
+msgid "Primary"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:70
+msgid "Secondary"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:75
+msgid "Red"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:80
+msgid "Green"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:85
+msgid "Blue"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:90
+msgid "Yellow"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:95
+msgid "Black"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:100
+msgid "Grey"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:105
+msgid "White"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:110
+msgid "Dusty daylight"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:115
+msgid "Dusty sun"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:132
+msgid "Small"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:133
+msgid "S"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:138
+msgid "Medium"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:139
+msgid "M"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:144
+msgid "Large"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:145
+msgid "L"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:150
+msgid "Larger"
+msgstr ""
+
+#: ../ealain/inc/Editor/Component.php:151
+msgid "XL"
+msgstr ""
+
+#: ../ealain/inc/Footer/Component.php:92
+msgid "text-left"
+msgstr ""
+
+#: ../ealain/inc/Footer/Component.php:93
+msgid "text-right"
+msgstr ""
+
+#: ../ealain/inc/Footer/Component.php:94
+msgid "text-center"
+msgstr ""
+
+#: ../ealain/inc/Footer/Component.php:102
+msgid "Footer Area "
+msgstr ""
+
+#: ../ealain/inc/Import/Component.php:41
+msgid "All Content"
+msgstr ""
+
+#: ../ealain/inc/Import/Component.php:52
+msgid "DEMO IMPORT REQUIREMENTS: Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds. "
+msgstr ""
+
+#: ../ealain/inc/Import/Component.php:53
+msgid "Based on your INTERNET SPEED it could take 5 to 25 minutes. "
+msgstr ""
+
+#: ../ealain/inc/Layouts/Component.php:65
+msgid "Setup header layout"
+msgstr ""
+
+#: ../ealain/inc/Layouts/Component.php:68
+msgid "Setup footer layout"
+msgstr ""
+
+#: ../ealain/inc/Layouts/Component.php:71
+msgid "Setup menu layout"
+msgstr ""
+
+#: ../ealain/inc/Layouts/Component.php:74
+msgid "Setup 404 page layout"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Component.php:64, ../ealain/inc/Redux_Framework/Component.php:65
+msgid "Ealain Options"
+msgstr ""
+
+#: ../ealain/inc/Sidebars/Component.php:77
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../ealain/inc/Sidebars/Component.php:79
+msgid "Add widgets here."
+msgstr ""
+
+#: ../ealain/inc/Sidebars/Component.php:89
+msgid "Product Sidebar"
+msgstr ""
+
+#. translators: %s: stylesheet handle
+#: ../ealain/inc/Styles/Component.php:234
+msgid "Invalid theme stylesheet handle: %s"
+msgstr ""
+
+#: ../ealain/inc/TGM/Component.php:58
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../ealain/inc/TGM/Component.php:64
+msgid "Elementor"
+msgstr ""
+
+#: ../ealain/inc/TGM/Component.php:69
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: ../ealain/inc/TGM/Component.php:74
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../ealain/inc/TGM/Component.php:79
+msgid "One Click Demo Import"
+msgstr ""
+
+#: ../ealain/inc/TGM/Component.php:84
+msgid "WooCommerce"
+msgstr ""
+
+#: ../ealain/inc/TGM/Component.php:89
+msgid "WPC Smart Quick View for WooCommerce"
+msgstr ""
+
+#: ../ealain/inc/TGM/Component.php:94
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: ../ealain/inc/TGM/Component.php:99
+msgid "WOOF – Products Filter for WooCommerce"
+msgstr ""
+
+#: ../ealain/inc/TGM/Component.php:104
+msgid "Iqonic Extensions"
+msgstr ""
+
+#: ../ealain/inc/TGM/Component.php:110
+msgid "Iqonic Layouts"
+msgstr ""
+
+#: ../ealain/inc/WooCommerce/Component.php:244
+msgid "Shop"
+msgstr ""
+
+#: ../ealain/inc/WooCommerce/Component.php:425
+msgid "Shopping Cart"
+msgstr ""
+
+#: ../ealain/inc/WooCommerce/Component.php:429
+msgid "Checkout"
+msgstr ""
+
+#: ../ealain/inc/WooCommerce/Component.php:433
+msgid "Order Summary"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry-attachment.php:33
+msgid "Previous:"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry-attachment.php:43
+msgid "Next:"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry-attachment.php:49
+msgid "Post navigation"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry.php:31, ../ealain/template-parts/content/entry_creative_post.php:92, ../ealain/template-parts/content/entry_page.php:18, ../ealain/template-parts/content/entry_portfolio.php:31
+msgid "Pages:"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry_actions.php:14
+msgid "Read More"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry_creative_post.php:121
+msgid "About Author"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry_creative_post.php:132
+msgid "Author"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry_creative_post.php:150
+msgid "Fb"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry_creative_post.php:157
+msgid "In"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry_creative_post.php:164
+msgid "Tw"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry_creative_post.php:172
+msgid "Pi"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry_creative_post.php:179
+msgid "Dr"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry_creative_post.php:186
+msgid "Be"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry_meta.php:64
+msgid "Posted by : "
+msgstr ""
+
+#. translators: %s: post author
+#: ../ealain/template-parts/content/entry_meta.php:66
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#. translators: %s: post author
+#: ../ealain/template-parts/content/entry_meta.php:69
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: ../ealain/template-parts/content/entry_meta.php:88
+msgctxt "post parent"
+msgid "In %s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: ../ealain/template-parts/content/entry_meta.php:91
+msgctxt "post parent"
+msgid "in %s"
+msgstr ""
+
+#: ../ealain/template-parts/content/entry_taxonomies.php:21
+msgid "Tags:"
+msgstr ""
+
+#: ../ealain/template-parts/content/error-404.php:54, ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:67
+msgid "Oops! This Page is Not Found."
+msgstr ""
+
+#: ../ealain/template-parts/content/error-404.php:65, ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:75
+msgid "The requested page does not exist."
+msgstr ""
+
+#: ../ealain/template-parts/content/error-404.php:74, ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:83
+msgid "Back to Home"
+msgstr ""
+
+#: ../ealain/template-parts/content/error-offline.php:14
+msgid "Oops! It looks like you&#8217;re offline."
+msgstr ""
+
+#: ../ealain/template-parts/content/error.php:49
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../ealain/template-parts/content/error.php:33
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../ealain/template-parts/content/error.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../ealain/template-parts/content/page_header.php:39, ../ealain/template-parts/content/page_header.php:22
+msgid "Nothing Found"
+msgstr ""
+
+#: ../ealain/template-parts/content/page_header.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../ealain/template-parts/footer/copyright.php:48
+msgid "© 2022"
+msgstr ""
+
+#: ../ealain/template-parts/footer/copyright.php:49
+msgid " ealain "
+msgstr ""
+
+#: ../ealain/template-parts/footer/copyright.php:50
+msgid ". All Rights Reserved."
+msgstr ""
+
+#: ../ealain/template-parts/header/header.php:44
+msgid "loader"
+msgstr ""
+
+#: ../ealain/template-parts/header/header.php:103
+msgid "Skip to content"
+msgstr ""
+
+#: ../ealain/template-parts/header/navigation.php:14
+msgid "Main menu"
+msgstr ""
+
+#: ../ealain/template-parts/wocommerce/entry-listing.php:31, ../ealain/template-parts/wocommerce/entry.php:29, ../ealain/woocommerce/single-product/sale-flash.php:33
+msgid "New!"
+msgstr ""
+
+#: ../ealain/template-parts/wocommerce/entry-listing.php:29, ../ealain/template-parts/wocommerce/entry.php:27, ../ealain/woocommerce/single-product/sale-flash.php:30
+msgid "Sale!"
+msgstr ""
+
+#: ../ealain/template-parts/wocommerce/entry-listing.php:27, ../ealain/template-parts/wocommerce/entry.php:25, ../ealain/woocommerce/single-product/sale-flash.php:27
+msgid "Sold!"
+msgstr ""
+
+#: ../ealain/template-parts/wocommerce/entry-listing.php:47, ../ealain/template-parts/wocommerce/entry.php:43, ../ealain/woocommerce/single-product/bkp-product-image.php:81
+msgid "Awaiting product image"
+msgstr ""
+
+#: ../ealain/template-parts/wocommerce/entry-listing.php:176
+msgid "View cart"
+msgstr ""
+
+#: ../ealain/template-parts/wocommerce/entry-listing.php:163, ../ealain/template-parts/wocommerce/entry.php:162
+msgid "Add to Cart"
+msgstr ""
+
+#: ../ealain/template-parts/wocommerce/entry-listing.php:139
+msgid "View products"
+msgstr ""
+
+#: ../ealain/template-parts/wocommerce/entry-listing.php:127
+msgid "Select Options"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/cart-empty.php:36
+msgid "Return to shop"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/cart-totals.php:26
+msgid "Cart totals"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/cart-totals.php:32, ../ealain/woocommerce/cart/cart-totals.php:33, ../ealain/woocommerce/cart/cart.php:36, ../ealain/woocommerce/cart/cart.php:117, ../ealain/woocommerce/checkout/review-order.php:52
+msgid "Subtotal"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/cart-totals.php:54, ../ealain/woocommerce/cart/cart-totals.php:55
+msgid "Shipping"
+msgstr ""
+
+#. translators: %s location.
+#: ../ealain/woocommerce/cart/cart-totals.php:74
+msgid "(estimated for %s)"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/cart-totals.php:101, ../ealain/woocommerce/cart/cart-totals.php:102, ../ealain/woocommerce/checkout/review-order.php:99, ../ealain/woocommerce/order/order-details.php:58
+msgid "Total"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/cart.php:33, ../ealain/woocommerce/cart/cart.php:57, ../ealain/woocommerce/checkout/form-checkout.php:51, ../ealain/woocommerce/checkout/form-pay.php:27, ../ealain/woocommerce/order/order-details.php:57
+msgid "Product"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/cart.php:34, ../ealain/woocommerce/cart/cart.php:89
+msgid "Price"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/cart.php:84
+msgid "Available on backorder"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/cart.php:129, ../ealain/woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/cart.php:152
+msgid "Coupon:"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/cart.php:152, ../ealain/woocommerce/checkout/form-coupon.php:33
+msgid "Coupon Code"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/cart.php:158, ../ealain/woocommerce/checkout/form-coupon.php:37
+msgid "Apply coupon"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/mini-cart.php:138
+msgid "Your Bag is empty. Add few items."
+msgstr ""
+
+#: ../ealain/woocommerce/cart/proceed-to-checkout-button.php:31
+msgid "Proceed to checkout"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate shipping"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/shipping-calculator.php:32
+msgid "Select a country / region&hellip;"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/shipping-calculator.php:72, ../ealain/woocommerce/cart/shipping-calculator.php:59, ../ealain/woocommerce/cart/shipping-calculator.php:53
+msgid "State / County"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/shipping-calculator.php:60
+msgid "Select an option&hellip;"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/shipping-calculator.php:83
+msgid "City"
+msgstr ""
+
+#: ../ealain/woocommerce/cart/shipping-calculator.php:92
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/form-billing.php:28
+msgid "Billing details"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/form-billing.php:54
+msgid "Create an account?"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/form-checkout.php:27
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/form-coupon.php:26
+msgid "Click here to enter your code"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/form-coupon.php:30
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/form-coupon.php:38
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/form-pay.php:28
+msgid "Qty"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/form-pay.php:29
+msgid "Totals"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/form-pay.php:79
+msgid "Sorry, it seems that there are no available payment methods for your location. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/form-shipping.php:26
+msgid "Ship to a different address?"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/form-shipping.php:57, ../ealain/woocommerce/single-product/tabs/additional-information.php:22
+msgid "Additional information"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/payment.php:33
+msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+#: ../ealain/woocommerce/checkout/payment.php:42
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the %1$sUpdate Totals%2$s button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/payment.php:45, ../ealain/woocommerce/checkout/payment.php:46
+msgid "Update totals"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/payment.php:58
+msgid "Place Order"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/thankyou.php:96, ../ealain/woocommerce/checkout/thankyou.php:48
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/thankyou.php:54
+msgid "Order number:"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/thankyou.php:60
+msgid "Date:"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/thankyou.php:67
+msgid "Email:"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/thankyou.php:74
+msgid "Total:"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/thankyou.php:81
+msgid "Payment method:"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/thankyou.php:32
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/thankyou.php:35
+msgid "Pay"
+msgstr ""
+
+#: ../ealain/woocommerce/checkout/thankyou.php:37
+msgid "My account"
+msgstr ""
+
+#: ../ealain/woocommerce/global/form-login.php:38
+msgid "Username or email"
+msgstr ""
+
+#: ../ealain/woocommerce/global/form-login.php:45
+msgid "Password"
+msgstr ""
+
+#: ../ealain/woocommerce/global/form-login.php:57, ../ealain/woocommerce/myaccount/form-login.php:58
+msgid "Remember me"
+msgstr ""
+
+#: ../ealain/woocommerce/global/form-login.php:61, ../ealain/woocommerce/myaccount/form-login.php:81
+msgid "Lost your password?"
+msgstr ""
+
+#: ../ealain/woocommerce/global/form-login.php:72, ../ealain/woocommerce/global/form-login.php:74, ../ealain/woocommerce/myaccount/form-login.php:33
+msgid "Login"
+msgstr ""
+
+#. translators: %s: Quantity.
+#: ../ealain/woocommerce/global/quantity-input.php:28
+msgid "%s quantity"
+msgstr ""
+
+#: ../ealain/woocommerce/global/quantity-input.php:42
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: ../ealain/woocommerce/loop/orderby.php:47
+msgid "Filter"
+msgstr ""
+
+#: ../ealain/woocommerce/loop/orderby.php:132
+msgid "Shop order"
+msgstr ""
+
+#: ../ealain/woocommerce/loop/pagination.php:36, ../ealain/woocommerce/loop/pagination.php:38
+msgid "LoadMore"
+msgstr ""
+
+#: ../ealain/woocommerce/loop/pagination.php:36
+msgid "Loading.."
+msgstr ""
+
+#. translators: 1: first result 2: last result 3: total results
+#: ../ealain/woocommerce/loop/result-count.php:38
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ealain/woocommerce/loop/result-count.php:33
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ealain/woocommerce/loop/result-count.php:30
+msgid "Showing the single result"
+msgstr ""
+
+#. translators: 1: user display name 2: logout url
+#: ../ealain/woocommerce/myaccount/dashboard.php:35
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
+msgstr ""
+
+#. translators: 1: Orders URL 2: Address URL 3: Account URL.
+#: ../ealain/woocommerce/myaccount/dashboard.php:45
+msgid "From your account dashboard you can view your <a href=\"%1$s\">recent orders</a>, manage your <a href=\"%2$s\">billing address</a>, and <a href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+
+#. translators: 1: Orders URL 2: Addresses URL 3: Account URL.
+#: ../ealain/woocommerce/myaccount/dashboard.php:48
+msgid "From your account dashboard you can view your <a href=\"%1$s\">recent orders</a>, manage your <a href=\"%2$s\">shipping and billing addresses</a>, and <a href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/downloads.php:46, ../ealain/woocommerce/myaccount/orders.php:127
+msgid "Browse products"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/downloads.php:55
+msgid "No downloads available yet."
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-add-payment-method.php:75
+msgid "New payment methods can only be added during checkout. Please contact us if you require assistance."
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-add-payment-method.php:59, ../ealain/woocommerce/myaccount/form-add-payment-method.php:61, ../ealain/woocommerce/myaccount/payment-methods.php:81
+msgid "Add payment method"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-edit-account.php:28
+msgid "First name"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-edit-account.php:34
+msgid "Last name"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-edit-account.php:42
+msgid "Display name"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-edit-account.php:46
+msgid "This will be how your name will be displayed in the account section and in reviews"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-edit-account.php:51
+msgid "Email address"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-edit-account.php:58
+msgid "Password change"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-edit-account.php:62
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-edit-account.php:68
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-edit-account.php:73
+msgid "Confirm new password"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-edit-account.php:89, ../ealain/woocommerce/myaccount/form-edit-account.php:91
+msgid "Save changes"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-edit-address.php:20, ../ealain/woocommerce/myaccount/my-address.php:32, ../ealain/woocommerce/myaccount/my-address.php:27, ../ealain/woocommerce/order/order-details-customer.php:31, ../ealain/woocommerce/order/order-details-customer.php:26
+msgid "Billing address"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-edit-address.php:20, ../ealain/woocommerce/myaccount/my-address.php:28, ../ealain/woocommerce/order/order-details-customer.php:27
+msgid "Shipping address"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-edit-address.php:51, ../ealain/woocommerce/myaccount/form-edit-address.php:53
+msgid "Save Address"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-login.php:68, ../ealain/woocommerce/myaccount/form-login.php:70
+msgid "Log in"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-login.php:95, ../ealain/woocommerce/myaccount/form-login.php:138, ../ealain/woocommerce/myaccount/form-login.php:140
+msgid "Register"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-lost-password.php:25
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/form-lost-password.php:42, ../ealain/woocommerce/myaccount/form-lost-password.php:44
+msgid "Reset password"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/my-address.php:100, ../ealain/woocommerce/order/order-details-customer.php:56
+msgid "Company"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/my-address.php:105, ../ealain/woocommerce/order/order-details-customer.php:61
+msgid "Country"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/my-address.php:110, ../ealain/woocommerce/order/order-details-customer.php:66
+msgid "Address"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/my-address.php:115, ../ealain/woocommerce/order/order-details-customer.php:71
+msgid "E-mail"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/my-address.php:120, ../ealain/woocommerce/order/order-details-customer.php:76
+msgid "Phone"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/orders.php:136
+msgid "No order has been made yet."
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/orders.php:68
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ealain/woocommerce/myaccount/orders.php:55
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/orders.php:100
+msgid "Previous"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/orders.php:110
+msgid "Next"
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/payment-methods.php:70
+msgid "No saved methods found."
+msgstr ""
+
+#: ../ealain/woocommerce/myaccount/payment-methods.php:49
+msgid "%1$s ending in %2$s"
+msgstr ""
+
+#: ../ealain/woocommerce/order/form-tracking.php:32
+msgid "Enter your order id."
+msgstr ""
+
+#: ../ealain/woocommerce/order/form-tracking.php:36
+msgid "Enter your email id."
+msgstr ""
+
+#: ../ealain/woocommerce/order/form-tracking.php:43
+msgid "Track"
+msgstr ""
+
+#: ../ealain/woocommerce/order/form-tracking.php:45
+msgid "Track Order"
+msgstr ""
+
+#: ../ealain/woocommerce/order/order-again.php:22
+msgid "Order again"
+msgstr ""
+
+#: ../ealain/woocommerce/order/order-details-customer.php:45
+msgid "Billing address "
+msgstr ""
+
+#: ../ealain/woocommerce/order/order-details.php:45
+msgid "Order Details"
+msgstr ""
+
+#: ../ealain/woocommerce/order/order-details.php:100, ../ealain/inc/Redux_Framework/Options/Footer.php:115, ../ealain/inc/Redux_Framework/Options/Footer.php:211, ../ealain/inc/Redux_Framework/Options/Header.php:160, ../ealain/inc/Redux_Framework/Options/Logo.php:29
+msgid "Note:"
+msgstr ""
+
+#: ../ealain/woocommerce/order/order-downloads.php:24
+msgid "Downloads"
+msgstr ""
+
+#: ../ealain/woocommerce/order/order-downloads.php:58
+msgid "&infin;"
+msgstr ""
+
+#: ../ealain/woocommerce/order/order-downloads.php:64
+msgid "Never"
+msgstr ""
+
+#. translators: 1: order number 2: order date 3: order status
+#: ../ealain/woocommerce/order/tracking.php:31
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: ../ealain/woocommerce/order/tracking.php:42
+msgid "Order updates"
+msgstr ""
+
+#: ../ealain/woocommerce/order/tracking.php:48
+msgid "l jS \o\f F Y, h:ia"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product/meta.php:44
+msgid "Date : "
+msgstr ""
+
+#: ../ealain/woocommerce/single-product/related.php:33
+msgid "Related Products"
+msgstr ""
+
+#: ../ealain/woocommerce/single-product/up-sells.php:29
+msgid "You may also like"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/AdditionalCode.php:21
+msgid "Additional Code"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/AdditionalCode.php:24
+msgid "This section contains options for header."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/AdditionalCode.php:30
+msgid "CSS Code"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/AdditionalCode.php:31
+msgid "Paste your css code here."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/AdditionalCode.php:33
+msgid "Paste your custom CSS code here."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/AdditionalCode.php:39
+msgid "JS Code"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/AdditionalCode.php:40
+msgid "Paste your js code in footer."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/AdditionalCode.php:43
+msgid "Paste your custom JS code here."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:25
+msgid "Blog"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:32
+msgid "General Blogs"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:35
+msgid "This section contains options for blog."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:42
+msgid "Blog Page Default Banner Image"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:45
+msgid "Upload banner image for your Website. Otherwise blank field will be displayed in place of this section."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:45
+msgid "(Note:Only Display Banner Style Second & Third in Page Banner Setting)"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:51
+msgid "Blog page Setting"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:52
+msgid "Choose among these structures (Right Sidebar, Left Sidebar, 1column, 2column and 3column) for your blog section.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:54, ../ealain/inc/Redux_Framework/Options/Blog.php:90, ../ealain/inc/Redux_Framework/Options/Page.php:32, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:53, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:67
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:55, ../ealain/inc/Redux_Framework/Options/Blog.php:91, ../ealain/inc/Redux_Framework/Options/Page.php:33, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:52, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:66
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:56
+msgid "One Columns"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:57, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:54
+msgid "Two Columns"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:58, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:55
+msgid "Three Columns"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:66, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:90
+msgid "Pagination"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:67
+msgid "Turn on to display pagination for the blog page."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:69, ../ealain/inc/Redux_Framework/Options/Blog.php:102, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:102
+msgid "On"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:70, ../ealain/inc/Redux_Framework/Options/Blog.php:103, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:103
+msgid "Off"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:72, ../ealain/inc/Redux_Framework/Options/Blog.php:105, ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:39, ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:93, ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:132, ../ealain/inc/Redux_Framework/Options/Footer.php:130, ../ealain/inc/Redux_Framework/Options/Footer.php:225, ../ealain/inc/Redux_Framework/Options/General.php:161, ../ealain/inc/Redux_Framework/Options/Header.php:175, ../ealain/inc/Redux_Framework/Options/Loader.php:34, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:106, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:136
+msgid "yes"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:78
+msgid "Blog Single Post"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:86
+msgid "Blog single page layout"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:87
+msgid "Choose among these structures (Right Sidebar, Left Sidebar and 1column) for your blog section.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:89, ../ealain/inc/Redux_Framework/Options/Page.php:31
+msgid "Full Width"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:99
+msgid "Comments"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:100
+msgid "Turn on to display comments"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Blog.php:113
+msgid "Select Posts for hide Featues Images"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:25
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:28
+msgid "This section contains options for Page Breadcrumb."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:34
+msgid "Display breadcrumb"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:36, ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:89, ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:128, ../ealain/inc/Redux_Framework/Options/Footer.php:126, ../ealain/inc/Redux_Framework/Options/Footer.php:221, ../ealain/inc/Redux_Framework/Options/General.php:158, ../ealain/inc/Redux_Framework/Options/General.php:189, ../ealain/inc/Redux_Framework/Options/Loader.php:31, ../ealain/inc/Redux_Framework/Options/Typography.php:34, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:122, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:133, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:154, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:166, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:178, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:191, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:203, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:216
+msgid "Yes"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:37, ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:90, ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:129, ../ealain/inc/Redux_Framework/Options/Footer.php:127, ../ealain/inc/Redux_Framework/Options/Footer.php:222, ../ealain/inc/Redux_Framework/Options/General.php:159, ../ealain/inc/Redux_Framework/Options/General.php:190, ../ealain/inc/Redux_Framework/Options/Loader.php:32, ../ealain/inc/Redux_Framework/Options/Typography.php:35, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:123, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:134, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:155, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:167, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:179, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:192, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:204, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:217
+msgid "No"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:46
+msgid "Default breadcrumb Image"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:48
+msgid "Upload default breadcrumb image for your Website."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:49
+msgid "This breadcrumb image displays only with style - 2, 3."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:56
+msgid "Select breadcrumb Style"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:57
+msgid "Select the style that best fits your needs."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:60
+msgid "Style1"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:64
+msgid "Style2"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:68
+msgid "Style3"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:72
+msgid "Style4"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:76
+msgid "Style5"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:87
+msgid "Display title on breadcrumb"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:100
+msgid "Select title tag"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:116
+msgid "Set title color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:126
+msgid "Display navigation on breadcrumb"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:138
+msgid "breadcrumb Background"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:150
+msgid "Set breadcrumb background color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Breadcrumb.php:160
+msgid "Set breadcrumb background image"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Color.php:25
+msgid "Color Attributes"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Color.php:28
+msgid "Change default colors of the site."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Color.php:33
+msgid "Set custom colors"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Color.php:44
+msgid "Primary color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Color.php:45
+msgid "Select primary accent color."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Color.php:54
+msgid "Secondary color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Color.php:55
+msgid "Select secondary complementing color."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Color.php:64
+msgid "Title Color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Color.php:65
+msgid "Select default Title(Headings) color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Color.php:75
+msgid "Body text color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Color.php:76
+msgid "Select default body text color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:25, ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:101, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:360
+msgid "Footer"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:32, ../ealain/inc/Redux_Framework/Options/Footer.php:40, ../ealain/inc/Redux_Framework/Options/Footer.php:50, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:367, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:377
+msgid "Footer Layout"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:35, ../ealain/inc/Redux_Framework/Options/Footer.php:108
+msgid "This section contains options for footer."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:42, ../ealain/inc/Redux_Framework/Options/Footer.php:73, ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:36, ../ealain/inc/Redux_Framework/Options/Header.php:43, ../ealain/inc/Redux_Framework/Options/Header.php:101, ../ealain/inc/Redux_Framework/Options/Header.php:115, ../ealain/inc/Redux_Framework/Options/Header.php:185, ../ealain/inc/Redux_Framework/Options/Header.php:221, ../ealain/inc/Redux_Framework/Options/Header.php:252, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:265, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:323, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:369
+msgid "Default"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:51, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:378
+msgid "Select the layout variation that you want to use for Footer."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:53
+msgid "Create custom footer layout from here - "
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:53, ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:48, ../ealain/inc/Redux_Framework/Options/Header.php:55, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:276, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:380
+msgid "New Layout"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:61
+msgid "Footer Logo"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:63
+msgid "Upload Footer Logo for your Website."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:70
+msgid "Change footer color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:71
+msgid "Select option for the footer background"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:74, ../ealain/inc/Redux_Framework/Options/Header.php:116, ../ealain/inc/Redux_Framework/Options/Header.php:186
+msgid "Color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:75, ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:56, ../ealain/inc/Redux_Framework/Options/Header.php:117, ../ealain/inc/Redux_Framework/Options/Header.php:187
+msgid "Image"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:84
+msgid "Choose background color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:94
+msgid "Choose background image"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:97
+msgid "Upload Footer image for your Website."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:105
+msgid "Footer Option"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:117, ../ealain/inc/Redux_Framework/Options/Footer.php:213
+msgid "This options only works with Default Footer Layout"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:123
+msgid "Display footer columns"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:124
+msgid "Display Footer Top On All page"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:136
+msgid "Footer Layout Type"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:138
+msgid "<br />Choose among these structures (1-column, 2-column, 3-column and 4-column) for your footer section.<br />To fill these column sections you should go to appearance > widget.<br />And add widgets as per your needs."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:140
+msgid "Footer Layout 1"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:141
+msgid "Footer Layout 2"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:142
+msgid "Footer Layout 3"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:143
+msgid "Footer Layout 4"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:151
+msgid "Select alignment for footer 1"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:164
+msgid "Select alignment for footer 2"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:177
+msgid "Select alignment for footer 3"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:190
+msgid "Select alignment for footer 4"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:203
+msgid "Footer Copyright"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:219
+msgid "Display Copyrights"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:230
+msgid "Copyrights text alignment"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:244
+msgid "Copyrights Text"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Footer.php:245
+msgid "© 2022 Ealain. All Rights Reserved."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:28
+msgid "This section contains options for 404."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:34
+msgid "Page Layout"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:45
+msgid "404 Layout"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:46
+msgid "Select the layout variation that you want to use for 404 page."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:48, ../ealain/inc/Redux_Framework/Options/Header.php:55, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:276, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:380
+msgid "Create"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:59
+msgid "Upload 404 image for your Website."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:66
+msgid "Title"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:74, ../ealain/woocommerce/single-product/tabs/description.php:22
+msgid "Description"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:82
+msgid "Button"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:89, ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:99, ../ealain/inc/Redux_Framework/Options/Header.php:171
+msgid "Enable"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:90, ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:100, ../ealain/inc/Redux_Framework/Options/Header.php:172
+msgid "Disable"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:91, ../ealain/inc/Redux_Framework/Options/Header.php:25, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:255
+msgid "Header"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:92
+msgid "Enable / disable header on 404 page"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/FourZeroFour.php:102
+msgid "Enable / disable footer on 404 page"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:25
+msgid "General"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:32
+msgid "Body Layout"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:44
+msgid "Container Width"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:45
+msgid "Adjust Your Site Container Width With Help Of Above Option."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:54
+msgid "Body Background"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:55
+msgid "Select this option for body background."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:67
+msgid "Choose body background color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:80
+msgid "Choose body background image."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:86
+msgid "Page Spacing"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:87
+msgid "Adjust top / bottom spacing of your site pages."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:111
+msgid "Top / Bottom spacing."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:129
+msgid "Top / Bottom spacing for tablet."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:147
+msgid "Top / Bottom spacing for mobile."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:156
+msgid "Display back to top button"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:168
+msgid "Back to Top Image"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:172, ../ealain/inc/Redux_Framework/Options/Logo.php:81, ../ealain/inc/Redux_Framework/Options/Logo.php:111
+msgid "Upload Logo image for your Website. Otherwise site title will be displayed in place of Logo."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:178
+msgid "Back to Top Text"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:187
+msgid "show Magic Cursor?"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/General.php:192, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:125
+msgid "no"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:32, ../ealain/inc/Redux_Framework/Options/Header.php:41, ../ealain/inc/Redux_Framework/Options/Header.php:52, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:262, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:273, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:306
+msgid "Header Layout"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:35
+msgid "This section contains options for Menu ."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:53, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:274, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:307
+msgid "Select the layout variation that you want to use for header layout."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:62, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:282, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:333
+msgid "Header Layout Position"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:64, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:284, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:335
+msgid "Horizontal"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:65, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:285, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:336
+msgid "Vertical"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:77, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:297, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:348
+msgid "Vertical header width"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:87
+msgid "Header container"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:89
+msgid "Full width"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:90
+msgid "Container"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:99, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:321
+msgid "Header Position"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:102, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:325
+msgid "Over"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:112, ../ealain/inc/Redux_Framework/Options/Header.php:182
+msgid "Background"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:113
+msgid "Select the variation for header background"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:118, ../ealain/inc/Redux_Framework/Options/Header.php:188
+msgid "Transparent"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:121, ../ealain/inc/Redux_Framework/Options/Header.php:190, ../ealain/inc/Redux_Framework/Options/Header.php:224, ../ealain/inc/Redux_Framework/Options/Header.php:255, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:268
+msgid "default"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:127, ../ealain/inc/Redux_Framework/Options/Header.php:196
+msgid "Set Background Color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:137, ../ealain/inc/Redux_Framework/Options/Header.php:206
+msgid "Upload Image"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:140
+msgid "Upload background image for header."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:150, ../ealain/inc/Redux_Framework/Options/Header.php:168
+msgid "Sticky Header"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:153
+msgid "This section contains options for sticky header menu and background color."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:162, ../ealain/inc/Redux_Framework/Options/Logo.php:31
+msgid "This options only works with Default Header Layout"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:169
+msgid "Enable to make header sticky."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:183
+msgid "Select the variation for sticky header background"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:209
+msgid "Upload background image for sticky header."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:218
+msgid "Menu Color Options"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:219
+msgid "Select Menu color for sticky."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:230
+msgid "Menu color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:239
+msgid "Menu hover color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:248
+msgid "Submenu Color Options"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:249
+msgid "Select submenu color for sticky."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:261
+msgid "Submenu Color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:271
+msgid "Submenu Hover Color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:280
+msgid "Submenu Background Color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Header.php:289
+msgid "Submenu Background Hover Color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Loader.php:20
+msgid "Loader"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Loader.php:28
+msgid "ealain Loader"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Loader.php:40
+msgid "Loader Background Color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Loader.php:42
+msgid "Choose Loader Background Color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Loader.php:51
+msgid "Add GIF image for loader"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Loader.php:55
+msgid "Upload Loader GIF image for your Website."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Loader.php:64
+msgid "Loader (Width/Height) Option"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Loader.php:65, ../ealain/inc/Redux_Framework/Options/Logo.php:90, ../ealain/inc/Redux_Framework/Options/Logo.php:121
+msgid "Allows you to choose width, height, and/or unit."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Loader.php:66, ../ealain/inc/Redux_Framework/Options/Logo.php:91, ../ealain/inc/Redux_Framework/Options/Logo.php:122
+msgid "You can enable or disable any piece of this field. Width, Height, or Units."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Logo.php:20, ../ealain/inc/Redux_Framework/Options/Logo.php:68, ../ealain/inc/Redux_Framework/Options/Logo.php:77
+msgid "Logo"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Logo.php:37
+msgid "Select Logo Type"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Logo.php:38
+msgid "Select either Text or image for your Logo."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Logo.php:50
+msgid "Enter the text to be used instead of the logo image"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Logo.php:52
+msgid "Please enter correct value"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Logo.php:53
+msgid "Ealain"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Logo.php:59
+msgid "Choose text color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Logo.php:89
+msgid "Logo (Width/Height) Option"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Logo.php:98, ../ealain/inc/Redux_Framework/Options/Logo.php:107
+msgid "Mobile Logo"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Logo.php:119
+msgid "Mobile Logo (Width/Height) Option"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Page.php:20
+msgid "Page Settings"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Page.php:28
+msgid "Search page Setting"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Page.php:29
+msgid "Choose among these structures (Right Sidebar, Left Sidebar and 1column) for your Search page.<br />To filling these column sections you should go to appearance > widget. And put every widget that you want in these sections."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/SocialMedia.php:20
+msgid "Social Media"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/SocialMedia.php:28
+msgid "Social Media Option"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/SocialMedia.php:29
+msgid "Enter social media url."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Typography.php:23
+msgid "Typography"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Typography.php:26
+msgid "This section contains typography related options."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Typography.php:32
+msgid "Do you want to change fonts?"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Typography.php:33
+msgid "0"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Typography.php:41
+msgid "Body Font"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Typography.php:42, ../ealain/inc/Redux_Framework/Options/Typography.php:62, ../ealain/inc/Redux_Framework/Options/Typography.php:81, ../ealain/inc/Redux_Framework/Options/Typography.php:100, ../ealain/inc/Redux_Framework/Options/Typography.php:118, ../ealain/inc/Redux_Framework/Options/Typography.php:136, ../ealain/inc/Redux_Framework/Options/Typography.php:154
+msgid "Select the font."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Typography.php:53
+msgid "Poppins"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Typography.php:61
+msgid "H1 Font"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Typography.php:72, ../ealain/inc/Redux_Framework/Options/Typography.php:91, ../ealain/inc/Redux_Framework/Options/Typography.php:110, ../ealain/inc/Redux_Framework/Options/Typography.php:128, ../ealain/inc/Redux_Framework/Options/Typography.php:146, ../ealain/inc/Redux_Framework/Options/Typography.php:164
+msgid "PT+Sans"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Typography.php:80
+msgid "H2 Font"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Typography.php:99
+msgid "H3 Font"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Typography.php:117
+msgid "H4 Font"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Typography.php:135
+msgid "H5 Font"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Typography.php:153
+msgid "H6 Font"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:25
+msgid "WooCommerce "
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:32
+msgid "Shop Page"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:39
+msgid "Shop page Setting"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:40
+msgid "Choose among these structures (Product Listing, Product Grid) for your shop section.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:42
+msgid "Product Listing"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:43
+msgid "Product Grid "
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:50
+msgid "Shop Grid page Setting"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:56
+msgid "Four Columns"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:64
+msgid "Shop List page Setting"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:76
+msgid "Set Product Per Page"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:77
+msgid "Here This option provide set post per paged item"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:87
+msgid "Woocommerce Product Load Type"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:88
+msgid "This Option Product The Shop page Product Load Type"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:91
+msgid "Load More"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:92
+msgid "Infinite Scroll"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:99
+msgid "Show Cart"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:100
+msgid "Turn on to Show Cart At All Page or Show Only In Woocommerce Pages"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:111
+msgid "Product Page"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:119
+msgid "Display Banner on Product Page"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:120
+msgid "This Option Display The Banner Of The Product"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:130
+msgid "Display Related Product On Single Page"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:131
+msgid "This Option Display RElated Product On Single Page"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:142
+msgid "Products Setting"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:151
+msgid "Display Name"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:152
+msgid "Here This option provide Name Of The Product"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:163
+msgid "Display Price"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:164
+msgid "Here This option Display The Price"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:175
+msgid "Display Rating"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:176
+msgid "Display The Ratings"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:188, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:189
+msgid "Display AddToCart Icon"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:200
+msgid "Display Wishlist Icon"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:201
+msgid "Display The Wishlist Icon"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:213, ../ealain/inc/Redux_Framework/Options/Woocommerce.php:214
+msgid "Display QuickView Icon"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:226
+msgid " Sale Badge Color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:227
+msgid "Color Of The Sale Badge"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:235
+msgid " New Badge Color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:236
+msgid "Color Of The New Badge"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:245
+msgid " Sold Badge Color"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:246
+msgid "Color Of The Sold BAdge"
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:263
+msgid "Select the variation for header "
+msgstr ""
+
+#: ../ealain/inc/Redux_Framework/Options/Woocommerce.php:324
+msgid "Under"
+msgstr ""

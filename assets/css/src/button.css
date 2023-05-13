@@ -1,0 +1,141 @@
+
+.ealain-btn-container {
+    vertical-align: middle;
+}
+
+.ealain-button,
+.rs-button,
+.added_to_cart {  
+	color: var(--color-theme-white);
+	font-size: var(--font-size-body);
+    font-family: var(--global-font-family);
+    letter-spacing: var(--letter-spacing-three);
+	font-weight:var(--font-weight-regular);
+    line-height: var(--font-line-height-body);
+	background-color: var(--color-theme-primary);
+    border-radius: var(--border-radius);
+    padding: 0.5em 1em; 
+    position: relative;
+	display: inline-block;
+	vertical-align: top;
+	text-transform: uppercase; 
+    cursor:pointer; 
+	border: 0.15em solid var(--color-theme-primary-light); 
+	overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out; 
+    box-shadow: none;
+}
+.ealain-button.border-btn,
+.rs-button.border-btn{
+    background: transparent;
+}
+.ealain-button:hover,
+.rs-button:hover,
+a.ealain-button:focus,
+a.rs-button:focus,.rs-button:focus,
+.ealain-button:focus{
+   color: var(--color-theme-white); 
+} 
+.btn-img{
+    margin-left:0;
+    display:inline-block;
+    line-height: normal;
+}
+.wpcf7 .btn-img{
+    margin-left:0.5em;
+}
+.ealain-button .text-btn,
+.rs-button .text-btn{
+    vertical-align: text-top;
+}
+.ealain-button .btn-img .btn-icon,
+.ealain-button .btn-img .btn-shadow,
+.rs-button .btn-img .btn-icon,
+.rs-button .btn-img .btn-shadow{
+    transition: transform 0.5s ease;
+}
+.ealain-button .btn-img .btn-shadow,
+.rs-button .btn-img .btn-shadow{
+    display: block;
+    margin-top:0.1875em;
+}
+.ealain-button:hover .btn-img .btn-icon,
+.rs-button:hover .btn-img .btn-icon{
+    transform: translateY(-5px);
+}
+.ealain-button:hover .btn-img .btn-shadow,
+.rs-button:hover .btn-img .btn-shadow{
+    transform: translateY(5px);
+
+}
+
+button:hover,
+button:focus {
+    outline: none;
+    box-shadow:none;
+}
+
+/* Link button */
+
+.ealain-button-link{
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: var(--color-theme-white);
+}
+.ealain-button-link .text-btn{
+    position: relative;
+    color:var(--color-theme-white);
+    padding: 0 1.75em;
+    margin-left: 0.625em;
+}
+.ealain-button-link:hover{
+    color:var(--color-theme-white);
+}
+
+.ealain-button-link .text-btn:after ,.ealain-button-link .text-btn:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:0.3125em;
+    display: block;
+    line-height: 1;
+    opacity: 1;
+    width: 100%;
+    height:6px;
+    background: currentColor;
+    -webkit-mask: url(../images/redux/wave-one.svg) left center;
+    mask: url(../images/redux/wave-one.svg) left center;
+    transition: opacity .3s ease-out;
+    animation: line-zigzag-bg-move 3s linear infinite paused;
+}
+.ealain-button-link .text-btn:before{
+    top: 0.6875em;
+    background: var(--color-theme-secondary);
+}
+.ealain-button-link:hover  .text-btn:after ,.ealain-button-link:hover  .text-btn:before {
+    opacity: 1;
+    animation: line-zigzag-bg-move 3s linear infinite running;
+}
+
+.ealain-button .wrap-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+@keyframes line-zigzag-bg-move {
+    0% {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0;
+    }
+    100% {
+        -webkit-mask-position: -3.125em 0;
+        mask-position: -3.125em 0;
+    }
+}
